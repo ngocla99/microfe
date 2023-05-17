@@ -6,13 +6,14 @@ import Landing from './components/Landing';
 import Pricing from './components/Pricing';
 
 export default () => {
+  console.log('Marketing');
   return (
     <div>
       <StylesProvider>
         <BrowserRouter>
           <Switch>
-            <Route exact path="/pricing" component={Pricing} />
-            <Route path="/" component={Landing} />
+            <Route exact path='/pricing' component={Pricing} />
+            <Route path='/' component={Landing} />
           </Switch>
         </BrowserRouter>
       </StylesProvider>
