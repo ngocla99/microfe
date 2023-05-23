@@ -15,12 +15,12 @@ export default () => {
   const [isSignedIn, setIsSignedIn] = useState(false);
 
   const handleSignIn = () => {
-    // FIXME: add auth logic sign in
+    // FIXME: add auth logic sign in (TBU)
     setIsSignedIn(true);
   };
 
   const handleSignOut = () => {
-    // FIXME: add auth logic sign out
+    // FIXME: add auth logic sign out (TBU)
     setIsSignedIn(false);
   };
 
